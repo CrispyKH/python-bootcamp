@@ -1,0 +1,12 @@
+daily git upload structure
+
+git checkout -b daily/year-month-day
+git add .
+git commit -m "2025-09-09 learned python randomization"
+git push origin daily/year-month-day
+open pull request on GitHub.com
+delete local daily branch
+
+
+type nul > filename.md - creates empty markdown file
+git branch -d localBranchName - deletes local branch
