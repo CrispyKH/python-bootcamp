@@ -43,7 +43,7 @@ print(dirty_dozen[0])
 print(dirty_dozen[1])
 print(dirty_dozen[1][2])
 print(dirty_dozen[1][3])
-'''
+
 #2025-09-17
 
 #Task 3
@@ -55,3 +55,12 @@ for score in student_scores:
         max_score = score
 print(f"This is the maximum score: {max_score}")
 
+#looping through a range
+for number in range(1, 11, 3): #prints numbers in range a to b -- 3rd parameter is the increment
+    print(number)
+
+sum = 0
+for number in range(1, 101):
+    sum += number
+print(sum)
+'''
