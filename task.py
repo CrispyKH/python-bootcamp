@@ -1,5 +1,8 @@
 import random
 
+'''
+#2025-09-09
+
 #TASK 1
 #Create coin flip program
 
@@ -35,9 +38,29 @@ vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
 
 dirty_dozen = [fruits, vegetables]
 
-'''print these lines for better clarification on how lists work
+    print these lines for better clarification on how lists work
 print(dirty_dozen[0])
 print(dirty_dozen[1])
 print(dirty_dozen[1][2])
 print(dirty_dozen[1][3])
+
+#2025-09-17
+
+#Task 3
+#Replicate the max function using knowledge of for loops and lists 
+student_scores = [45, 67, 89, 90, 23, 56, 78, 99, 100, 34, 67]
+max_score = 0
+for score in student_scores:
+    if score > max_score:
+        max_score = score
+print(f"This is the maximum score: {max_score}")
+
+#looping through a range
+for number in range(1, 11, 3): #prints numbers in range a to b -- 3rd parameter is the increment
+    print(number)
+
+sum = 0
+for number in range(1, 101):
+    sum += number
+print(sum)
 '''
