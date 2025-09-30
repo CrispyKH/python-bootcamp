@@ -64,3 +64,14 @@ for number in range(1, 101):
     sum += number
 print(sum)
 '''
+#2025-09-26
+
+print("Hello")
+num_char = len("Hello")
+print(num_char)
+
+#but what if we wanted our own functions?
+def my_function():
+    print("Hello")
+    print("Bye")
+my_function()
